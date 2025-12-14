@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class senario6
+public class MiniBook
 {
     public static void main(String[] args)
     {
