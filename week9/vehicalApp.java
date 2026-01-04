@@ -3,15 +3,15 @@ package week9;
 public class vehicalApp
 {
     public static void main(String[] args) {
-        Car car = new Car(1, "toyota", 50000, 4, "dis");
-        car.displayVehicleInfo();
-        System.out.println("Tax: " + car.calculateTax());
-        System.out.println("Final Price: " + car.calculateFinalPrice());
+        Car c = new Car(1, "toyo", 50000, 4, "yuy");
+        c.displayVehicleInfo();
+        System.out.println("Tax: " + c.calculateTax());
+        System.out.println("Final Price: " + c.calculateFinalPrice());
         System.out.println();
 
-        Bike bike = new Bike(2, "BMW", 3200000, 150);
-        bike.displayVehicleInfo();
-        System.out.println("Tax: " + bike.calculateTax());
-        System.out.println("Final Price: " + bike.calculateFinalPrice());
+        Bike b = new Bike(2, "BMVVVVVVV", 32000, 150);
+        b.displayVehicleInfo();
+        System.out.println("Tax: " + b.calculateTax());
+        System.out.println("Final Price: " + b.calculateFinalPrice());
     }
 }
